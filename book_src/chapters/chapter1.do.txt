@@ -309,7 +309,7 @@ class ForwardEuler_v0:
         """Compute solution for t_span[0] <= t <= t_span[1],
         using N steps."""
         t0, T = t_span
-        self.dt = T / N
+        self.dt = (T - t0) / N
         self.t = np.zeros(N + 1)  # N steps ~ N+1 time points
         self.u = np.zeros(N + 1)
 
