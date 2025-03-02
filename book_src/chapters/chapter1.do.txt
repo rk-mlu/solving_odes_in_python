@@ -55,7 +55,7 @@ in this book are initial value problems. As an example, consider the very simple
 \[ u'=u .\]
 !et
 This equation has the general solution $u(t)=Ce^t$ for any constant $C$, so it has an infinite number of solutions.
-Specifying an initial condition $u(t_0)=u_0$ gives $C=u_0$, and we get the unique solution $u(t)=u_0e^t$.  
+Specifying an initial condition $u(0)=u_0$ at time $t_0 = 0$ gives $C=u_0$, and we get the unique solution $u(t)=u_0e^t$.  
 We shall see that, when solving the equation numerically, we need to define $u_0$ in order to start our method and
 compute a solution at all.
 
