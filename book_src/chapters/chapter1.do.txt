@@ -394,8 +394,8 @@ by systems of ODEs, i.e., multiple ODEs where the right-hand side of one equatio
 systems are also referred to as vector ODEs. One simple example is
 !bt
 \begin{alignat*}{2}
-u' &= v, \quad &&u(0) = 1\\
-v' &= -u, \quad &&v(0) = 0.
+u' &= -v, \quad &&u(0) = 1\\
+v' &=  u, \quad &&v(0) = 0.
 \end{alignat*}
 !et
 The solution of this system is $u=\cos t, v=\sin t$, which can easily be verified by inserting the solution into the equations
